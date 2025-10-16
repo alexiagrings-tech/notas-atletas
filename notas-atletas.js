@@ -17,4 +17,6 @@ for (let i = 0; i < atletas.length; i++) {
 
   let media = soma / notasComputadas.length;
 
-console.log(`A média do atleta ${atleta.nome} é ${media}`);}
+console.log(`${atleta.nome}`)
+console.log(`Notas Obtidas: ${atleta.notas}`)
+console.log(`Média Válida: ${media}`);}
